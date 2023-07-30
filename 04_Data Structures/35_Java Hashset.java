@@ -26,9 +26,9 @@ public class Solution {
 //Write your code here
         HashSet<String> hashSet = new HashSet<String>(t);
         for (int i=0;i<t;i++){
-            hashSet.add("("+pair_left[i]+pair_right[i]+")");
+            hashSet.add("("+pair_left[i]+", "+pair_right[i]+")");
             System.out.println(hashSet.size());
-        }
+        }   
 
     }
 }
